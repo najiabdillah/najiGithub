@@ -1,0 +1,23 @@
+CREATE TABLE favoriteEntity (
+    id INTEGER NOT NULL PRIMARY KEY,
+    NAME TEXT NOT NULL,
+    IMAGE TEXT NOT NULL
+);
+
+getFavoritenById:
+SELECT *
+FROM favoriteEntity
+WHERE id = :id;
+
+getAllFavorite:
+SELECT *
+FROM favoriteEntity;
+
+insertFavorite:
+INSERT OR REPLACE
+INTO favoriteEntity
+VALUES(?, ?, ?);
+
+deleteFavoriteById:
+DELETE FROM favoriteEntity
+WHERE id = :id;

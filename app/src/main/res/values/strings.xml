@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Search User</string>
+    <string name="search">Masukan username</string>
+    <string name="runtime_message">must implement onClick</string>
+    <string name="ui_text_unknown_error">Terjadi_kesalahan</string>
+    <string name="server_maintenace">Server sedang maintenace</string>
+    <string name="unwrap_cannot_retrieve_data_text">Tidak dapat menerima data</string>
+    <string name="unwrap_timeout_error_text">Timeout</string>
+    <string name="unwrap_network_error_text">Kesalahan pada jaringan</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_text_1">Follower</string>
+    <string name="tab_text_2">Following</string>
+    <string name="username_text">Username</string>
+    <string name="name_text">Name</string>
+    <string name="followers_text">Followers</string>
+    <string name="follower_value_text">0</string>
+    <string name="followings_text">Followings</string>
+    <string name="following_value_text">0</string>
+    <string name="empty_text">Favorite kosong nih</string>
+    <string name="image_text">gambar</string>
+    <string name="first_search_text">Tidak ditemukan history pencarian user</string>
+    <string name="switch_mode_text">Switch Mode</string>
+    <string name="select_mode_view_text">Select Mode View</string>
+    <string name="implement_click_text">Must implement onClick</string>
+    <string name="favorite_text">Favorite</string>
+    <string name="welcome_button_next_text">Selesai</string>
+    <string name="welcome_title_text">Selamat datang</string>
+    <string name="welcome_description_text">Selamat datang pada aplikasi sumission github oleh Arfan Siregar</string>
+</resources>

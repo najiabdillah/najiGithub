@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom" />
+
+    <group android:menuCategory="container">
+        <item
+            android:id="@+id/iv_Setting"
+            android:title="@string/switch_mode_text"
+            android:icon="@drawable/ic_light_mode"
+            app:showAsAction="always"
+            app:actionViewClass="android.widget.ImageView" />
+
+        <item
+            android:id="@+id/settings"
+            android:title="@string/switch_mode_text"
+            android:actionLayout="@layout/setting_layout"
+            app:showAsAction="always"
+            app:actionViewClass="androidx.appcompat.widget.SwitchCompat" />
+    </group>
+
+</menu>
